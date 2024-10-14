@@ -36,6 +36,25 @@ transform: translate(0, -10px);
 	margin-bottom: 0px;
 	text-transform: capitalize;
 	font-size: 26px;
+	font-weight: 600;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    font-size: 26px;
+    position: absolute;
+    top: 0;
+    // background: aqua;
+    width: 100%;
+    left: 0;
+    padding: 10px;
+}
+.c1 {
+	background: #B9DDDD;
+}
+.c2 {
+	background: #69D1D1;
+}
+.c3 {
+	background: #7FD57D;
 }
 .price-head span {
 	display: inline-block;
@@ -50,6 +69,7 @@ transform: translate(0, -10px);
 	font-weight: 500;
 	font-size: 50px;
 	margin-bottom: 0px;
+	text-align: start;
 }
 .single-pricing{}
 .single-pricing h5 {

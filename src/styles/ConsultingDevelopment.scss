@@ -1,8 +1,14 @@
+h2 {
+    // font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
 .consulting-development {
-
+background-color: #efefef;
+padding: 40px 0;
     // Ensure each section takes 50% of the viewport height
     section {
-        height: 50vh;
+        // height: 50vh;
         // display: flex;
         align-items: center;
         padding: 20px;
@@ -14,11 +20,7 @@
         justify-content: flex-start; // Align content to the left side
         text-align: left;
 
-        h2 {
-            // font-size: 28px;
-            margin-bottom: 20px;
-            color: #333;
-        }
+  
 
         .section-content {
             // max-width: 600px;
@@ -60,7 +62,7 @@
 
     .implementation-section {
         // background-color: #e0f7fa;
-        justify-content: flex-end; // Align content to the right side
+        // justify-content: flex-end; // Align content to the right side
         // text-align: right;
         // display: flex;
         flex-direction: row-reverse;

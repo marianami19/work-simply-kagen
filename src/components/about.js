@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Img from '../images/work-simply-logo-svg.svg'; // Importing the image
 const AboutUs = () => {
   return (
     <div className="container my-5">
@@ -28,17 +28,44 @@ const AboutUs = () => {
 		</div>
 	</div>
 </section>
-<section className="bg-light text-center py-5">
-	<div className="container pb-5 pt-5">
-		<div className="pb-5 pt-5 row">
-			<div className="col-lg-9 col-xl-8 ms-auto me-auto pb-5 pt-5">
-				{/* <span>Loreum ipsum</span> */}
-				<h1 className="display-3 fw-bold mb-3">  Our goal?</h1>
-				<p className="lead mb-4">Simplifying processes, reducing costs, and driving growth—so you can focus on what matters most!</p>
-			</div>
-		</div>
-	</div>
+<section 
+  className="bg-light text-center py-5 position-relative" 
+  style={{ 
+    position: "relative",
+    overflow: "hidden"
+  }}
+>
+  {/* Background image with blur using ::before */}
+  <div 
+    style={{
+      content: "''",
+      position: "absolute",
+      top: 0,
+      left: 0,
+      width: "100%",
+      height: "100%",
+      backgroundImage: "url('https://images.pexels.com/photos/7652394/pexels-photo-7652394.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      filter: "blur(13px)",
+    //   zIndex: -1 // Pushes the background behind the text
+    }}
+  ></div>
+
+  <div className="container pb-5 pt-5 position-relative">
+    <div className="pb-5 pt-5 row">
+      <div className="col-lg-9 col-xl-8 ms-auto me-auto pb-5 pt-5 text-white">
+        <h1 className="display-3 fw-bold mb-3">Our goal?</h1>
+        <p className="lead mb-4">
+          Simplifying processes, reducing costs, and driving growth—so you can focus on what matters most!
+        </p>
+      </div>
+    </div>
+  </div>
 </section>
+
+
 <section className="py-5">
 	<div className="container">
 		<div className="row gx-5">

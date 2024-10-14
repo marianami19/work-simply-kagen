@@ -6,33 +6,33 @@ export default function Footer() {
     <footer className="bg-light text-center text-lg-start">
       <div className="container p-4">
         <div className="row">
-          <div className="col-lg-4 col-md-12 mb-4">
-            <h5 className="text-uppercase">Work-Simply</h5>
-            <p>
+          <div className="col-lg-5 col-md-12 mb-4">
+            <h5 className="text-uppercase mb-3">Work-Simply</h5>
+            <p style={{width: '250px'}}>
               Empowering business leaders with tailored solutions to streamline processes and drive growth.
             </p>
           </div>
-          <div className="col-lg-4 col-md-6 mb-4">
-            <h5 className="text-uppercase">Links</h5>
+          <div className="col-lg-3 col-md-6 mb-4">
+            <h5 className="text-uppercase mb-3">Links</h5>
             <ul className="list-unstyled">
-              <li>
-                <a href="/" className="text-dark">Home</a>
+              <li className='mb-3'>
+                <a href="/" className="text-dark text-decoration-none">Home</a>
               </li>
-              <li>
-                <a href="/about" className="text-dark">About</a>
+              <li className='mb-3'>
+                <a href="/about" className="text-dark text-decoration-none">About</a>
               </li>
-              <li>
-                <a href="/services" className="text-dark">Services</a>
+              <li className='mb-3'>
+                <a href="/services" className="text-dark text-decoration-none">Services</a>
               </li>
-              <li>
-                <a href="/contact" className="text-dark">Contact</a>
+              <li className='mb-3'>
+                <a href="/contact" className="text-dark text-decoration-none">Contact</a>
               </li>
             </ul>
           </div>
           <div className="col-lg-4 col-md-6 mb-4">
-            <h5 className="text-uppercase">Contact Us</h5>
-            <p>Email: info@work-simply.com</p>
-            <p>Phone: +1 (123) 456-7890</p>
+            <h5 className="text-uppercase mb-3">Contact Us</h5>
+            <p> info@work-simply.com</p>
+            <p> +1 (123) 456-7890</p>
             <div>
               <a href="#" className="me-4 text-dark">
                 <i className="fab fa-facebook-f"></i>
